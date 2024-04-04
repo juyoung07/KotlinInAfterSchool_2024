@@ -14,12 +14,19 @@ fun main() {
     print("잔 수 >> ")
     var cups = readln().toInt()
 
-    if (coffee == "에프")
-        println("${2000 * cups}원 입니다.")
-    else if (coffee == "아메")
-        println("${2500 * cups}원 입니다.")
-    else if (coffee == "카푸")
-        println("${3000 * cups}원 입니다.")
-    else
-        println("잘못 입력하심티비")
+    when (coffee) {
+        "에프" -> println("${2000 * cups}원 입니다.")
+        "아메" -> println("${2500 * cups}원 입니다.")
+        "카푸" -> println("${3000 * cups}원 입니다.")
+        else -> println("잘못 입력하심티비")
+    }
+
+//    if (coffee == "에프")
+//        println("${2000 * cups}원 입니다.")
+//    else if (coffee == "아메")
+//        println("${2500 * cups}원 입니다.")
+//    else if (coffee == "카푸")
+//        println("${3000 * cups}원 입니다.")
+//    else
+//        println("잘못 입력하심티비")
 }
