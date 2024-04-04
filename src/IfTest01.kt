@@ -6,7 +6,7 @@ fun main() {
     var result: Double
 
     // 온도와 단위 입력 받기
-    print("온도를 입력하세요 >> "ㅎ)
+    print("온도를 입력하세요 >> ")
     temperature = readln().toDouble()
     print("단위를 입력하세요 (F or C) >> ")
     danwe = readln().toString()
