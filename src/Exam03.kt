@@ -11,4 +11,4 @@ fun main() {
     val exp04 = 3.14e2F                 // 오른쪽으로 소수점 자리 이동, Float로 추론
 
     println("exp01: $exp01, exp02: $exp02, exp03: $exp03, exp04: $exp04")
-}g
+}
