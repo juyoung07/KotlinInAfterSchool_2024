@@ -1,18 +1,19 @@
 fun sumC(a: Int, b: Int): Int = a + b       // {a, b -> a + b} 이렇게 넘겨짐
-
 fun calc(a: Int, b: Int, operation: (Int, Int) -> Int) = operation(a, b)
-
 fun a(str: String): String {
     return str
 }
-
 fun b(funs: (String) -> String) {
     println(funs("awds"))
 }
-
 val sumla = {a: Int, b: Int -> a + b}
-
 fun calculator(a: Int, b: Int, operation: (Int, Int) -> Int) = operation(a, b)
+
+// 고차함수의 인자가 람다식 뿐이면 소괄호 생략
+fun printInfo(p: () -> Unit) {
+    println("계산 Version: ")
+    p()
+}
 
 fun main() {
     b(::a)          // 고차함수 호출: 사용할 함수를 매개변수로 넘겨줌 -> ::(함수포인터) 활용
@@ -27,4 +28,9 @@ fun main() {
 
     // 호출하는 고차함수에 람다의 매개변수 타입이 명시된 경우 표현식에서 타입 생략
     println(calculator(2, 1) {a, b -> a + b})
+
+    // 고차함수의 인자가 람다식 뿐이면 소괄호 생략
+    printInfo ({ println("1.1")})
+    printInfo (){ println("1.1")}
+    printInfo { println("1.1")}     // 고차함수 호출 -> 소괄호 생략
 }
