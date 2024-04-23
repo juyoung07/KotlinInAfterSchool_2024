@@ -1,3 +1,5 @@
+package Func_hof
+
 fun main() {
     val res1 = sum(3,2)
     val res2 = mul(sum(3, 3), 3)

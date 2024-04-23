@@ -1,3 +1,5 @@
+package Lambda
+
 fun main() {
     val upperCase1: (String) -> String = {str:String -> str.toUpperCase()}
     println(upperCase1("hello"))
