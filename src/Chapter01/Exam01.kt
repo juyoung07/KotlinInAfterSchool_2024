@@ -1,3 +1,5 @@
+package Chapter01
+
 var name:String = "Kotlin"      // var : 변수
 val age:Int = 20                // val : 읽기 전용 변수 (런타임시에 할당)
 

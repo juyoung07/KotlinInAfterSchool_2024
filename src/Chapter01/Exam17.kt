@@ -1,3 +1,5 @@
+package Chapter01
+
 fun main() {
     print("숫자1 입력 >> ")
     var num1:Int = readln().toInt()

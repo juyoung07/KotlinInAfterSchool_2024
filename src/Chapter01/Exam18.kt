@@ -1,3 +1,5 @@
+package Chapter01
+
 fun main() {
     print("나이를 입력하세요 >> ")
     var age: Int

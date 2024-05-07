@@ -1,3 +1,5 @@
+package Chapter01
+
 // 주소.. 참조 연산자. 객체에서만 할 수 있음
 fun main() {
     val data1:Int = 10

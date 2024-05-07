@@ -1,3 +1,5 @@
+package Chapter01
+
 // String pool
 fun main() {
     var str1:String = "hello"
