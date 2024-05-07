@@ -1,3 +1,5 @@
+package Chapter04
+
 fun main() {
     var anyArray = arrayOf(1, "값", true, 12.2)
 
