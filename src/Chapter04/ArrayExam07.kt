@@ -1,4 +1,4 @@
-import java.util.*
+package Chapter04
 
 fun main() {
     val bookName = arrayOf<String>("java", "kotlin", "C", "C#")
