@@ -1,3 +1,5 @@
+package Chapter04
+
 // 가변형 List
 fun main () {
     val lang: ArrayList<String> = ArrayList()
