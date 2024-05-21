@@ -6,7 +6,7 @@ fun main() {
     langMutableMap.put(4, "JSP")
     langMutableMap.remove(1)
 
-    for((key, value ) in langMutableMap) {
+    for((key, value) in langMutableMap) {
         println("key = $key, value = $value")
     }
     println("첫번째 키: ${langMutableMap.keys.first()}")
