@@ -1,3 +1,5 @@
+package Chapter04
+
 fun main() {
     var bookMap:Map<String, Int> = mapOf("java" to 10000, "kotlin" to 20000, "c" to 30000, "c#" to 10000)
     val stuDiscount = 0.2f //학생인 경우 20%할인하여 계산
