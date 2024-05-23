@@ -1,3 +1,5 @@
+package Chapter04
+
 fun main() {
     var icecreamList:MutableMap<String, Int> = mutableMapOf<String, Int>()
 
@@ -16,7 +18,7 @@ fun main() {
 //        price += value
 //    }
 
-    for (k in icecreamList.keys) print("${k} ")
+    for (k in icecreamList.keys) print("${k} ")     // forEach 구문
     print("\n가격 : ")
     for (v in icecreamList.values) print("${v} ")
 
