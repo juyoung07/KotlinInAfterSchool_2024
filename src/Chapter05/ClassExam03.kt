@@ -1,4 +1,4 @@
-import Chapter05.Birds
+package Chapter05
 
 class Bird(var name:String = "noName", var wing:Int = 2, var color:String = "white") {
     init {
