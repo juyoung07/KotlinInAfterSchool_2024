@@ -9,7 +9,7 @@ fun main() {
         nationList.put(key, value)
     }
 
-    var nation : String = nationList.keys.first()
+    var nation : String = nationList.keys.first()   // map은 인덱스 사용 불가
     var max : Int = nationList.values.first()
 
     for ((key, value) in nationList) {
