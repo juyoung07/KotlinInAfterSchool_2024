@@ -1,3 +1,5 @@
+package Chapter05
+
 class Bird4(var name: String = "noName", var wing: Int = 2, var color: String = "white") {
     companion object {
         var num: Int = 0
