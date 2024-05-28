@@ -1,3 +1,5 @@
+package Chapter05
+
 class MyClass {
     var name: String = "world"
     fun sayHello() {
