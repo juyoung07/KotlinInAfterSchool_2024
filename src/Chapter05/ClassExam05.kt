@@ -1,3 +1,5 @@
+package Chapter05
+
 class Bird3(var name: String = "noName", var wing: Int = 2, var color: String = "white") {
     init {
         println("*** Bird3 만들기 ***")
