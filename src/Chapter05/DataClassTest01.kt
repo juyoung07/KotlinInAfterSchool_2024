@@ -1,3 +1,5 @@
+package Chapter05
+
 data class Employee(var name: String, var age: Int, var salary: Int = 1000)
 fun avgAge(arr: ArrayList<Employee>) : Double {
     var sum = 0
@@ -24,7 +26,6 @@ fun main() {
     for (i in arr) {
         println("name = ${i.name}, age = ${i.age}, salary = ${i.salary}")
     }
-
-    println("평균나이 : ${avgAge(arr)}")
-    println("평균나이 : ${avgSalary(arr)}")
+    println("평균 나이 : ${avgAge(arr)}")
+    println("평균 급여 : ${avgSalary(arr)}")
 }
