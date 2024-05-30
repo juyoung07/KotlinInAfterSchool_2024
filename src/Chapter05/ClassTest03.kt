@@ -1,4 +1,4 @@
-import Chapter02.sum
+package Chapter05
 
 class Rect(var width: Int = 1, var height: Int = 1) {
     companion object {
