@@ -1,4 +1,4 @@
-import Chapter06.Lark
+package Chapter06
 
 open class Bird2(var name: String = "noName", var wing: Int = 2, var color: String = "white") {
     fun print() = println("$name, $wing, $color")
