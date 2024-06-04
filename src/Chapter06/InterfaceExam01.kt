@@ -1,7 +1,5 @@
 package Chapter06
 
-import javax.management.remote.SubjectDelegationPermission
-
 interface Person {
     var age: Int
     fun needToSleep()
