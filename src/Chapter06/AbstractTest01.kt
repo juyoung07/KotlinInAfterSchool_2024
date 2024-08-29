@@ -1,7 +1,5 @@
 package Chapter06
 
-import Chapter02.max
-
 open abstract class Calc {
     var a: Int = 0
     var b: Int = 0
